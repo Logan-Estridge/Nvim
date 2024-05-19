@@ -11,6 +11,11 @@ vim.keymap.set('n', '<leader>z', '<Cmd>wq<CR>') --<leader>z writes and quits the
 vim.keymap.set('n', '<leader>o', 'o<Esc>') --<leader>o puts a line below without going into insert mode
 vim.keymap.set('n', '<leader>O', 'O<Esc>') --<leader>O puts a line above without going into insert mode
 vim.keymap.set('n', '<leader>s', '<Cmd>%so<CR>') --<leader>s sources the file
+-- Move nvim/tmux panes with Ctrl + h/j/k/l
+-- vim.keymap.set('n', '<C-h>', '<Cmd>wincmd h<CR>')
+-- vim.keymap.set('n', '<C-j>', '<Cmd>wincmd j<CR>')
+-- vim.keymap.set('n', '<C-k>', '<Cmd>wincmd k<CR>')
+-- vim.keymap.set('n', '<C-l>', '<Cmd>wincmd l<CR>')
 --
 
 -- Insert mode mappings
