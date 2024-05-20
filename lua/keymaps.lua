@@ -1,4 +1,7 @@
 local options = { noremap = true }
+
+-- '<leader>' = '<Space>' and '<localleader>' = ','
+
 -- Normal mode mappings
 vim.keymap.set('n', '<leader>h', '<Cmd>nohlsearch<CR>') --<leader>h turns off search highlighting
 vim.keymap.set('n', '<leader>b', '<Cmd>buffers<CR>:b') --<leader>b opens the buffers window
