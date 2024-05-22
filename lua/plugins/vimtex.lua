@@ -27,7 +27,7 @@ return {
 
     -- Most VimTeX mappings rely on localleader and this can be changed with the
     -- following line. The default is usually fine and is the symbol "\".
-    vim.g.maplocalleader = ','
+    -- vim.g.maplocalleader = ','
 
     vim.g.vimtex_imaps_enabled = 0
   end
