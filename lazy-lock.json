@@ -3,6 +3,7 @@
   "alpha-nvim": { "branch": "main", "commit": "41283fb402713fc8b327e60907f74e46166f4cfd" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "39e2eda76828d88b773cc27a3f61d2ad782c922d" },
   "cmp_luasnip": { "branch": "master", "commit": "05a9ab28b53f71d1aece421ef32fee2cb857a843" },
+  "flit.nvim": { "branch": "main", "commit": "56490317983218b09698f8c960c3669958b12b32" },
   "friendly-snippets": { "branch": "main", "commit": "dd2fd1281d4b22e7b4a5bfafa3e142d958e251f2" },
   "gitsigns.nvim": { "branch": "main", "commit": "a28bb1db506df663b063cc63f44fbbda178255a7" },
   "harpoon": { "branch": "harpoon2", "commit": "0378a6c428a0bed6a2781d459d7943843f374bce" },
@@ -27,6 +28,7 @@
   "telescope.nvim": { "branch": "0.1.x", "commit": "08a28108c23323ed1f5c1a68b34bfdb2590fe98b" },
   "undotree": { "branch": "master", "commit": "56c684a805fe948936cda0d1b19505b84ad7e065" },
   "vim-fugitive": { "branch": "master", "commit": "4f59455d2388e113bd510e85b310d15b9228ca0d" },
+  "vim-repeat": { "branch": "master", "commit": "24afe922e6a05891756ecf331f39a1f6743d3d5a" },
   "vim-tmux-navigator": { "branch": "master", "commit": "c600cf10db1bf933aab9e357158bf9b202ecf99b" },
   "vimtex": { "branch": "master", "commit": "9665df7f51ee24aa81dbd81782e0a22480209753" }
 }
