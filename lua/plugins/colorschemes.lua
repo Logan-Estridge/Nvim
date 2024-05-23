@@ -1,17 +1,18 @@
 return {
 	-- Installed colorschemes:
-  --   abyss
+	--   abyss
 	--   catppuccin
 	--   gruvbox
 	--   moonfly
 	--   rose-pine
-  --   solarized
+	--   solarized
 	--   tokyonight
 	--
 	--   Lualine install/config at top
 	{
 		"nvim-lualine/lualine.nvim",
 		config = function()
+			vim.opt.showmode = false
 			require("lualine").setup({
 				options = {
 					theme = "tokyonight",
