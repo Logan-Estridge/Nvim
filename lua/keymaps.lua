@@ -16,3 +16,8 @@ vim.keymap.set('n', '<leader>s', '<Cmd>%so<CR>', { desc = "sources the file" })
 vim.keymap.set('c', 'bda', '%bd<CR>', { desc = "bda deletes all buffers" })
 --
 
+-- Visual line mode mappings
+vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", { desc = "moves visually selected line down" })
+vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv", { desc = "moves visually selected line up" })
+--
+
