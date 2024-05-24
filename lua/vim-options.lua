@@ -15,6 +15,10 @@ vim.opt.shiftwidth = 2
 vim.opt.shiftround = true
 vim.opt.expandtab = true
 
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.signcolumn = "yes"
+
 -- Function to determine the current hour
 local function get_hour()
   return tonumber(os.date("%H"))
