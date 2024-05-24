@@ -6,7 +6,7 @@ vim.keymap.set('n', '<leader>q', '<Cmd>q<CR>', { desc = "quits the file" })
 vim.keymap.set('n', '<leader>z', '<Cmd>wq<CR>', { desc = "writes and quits the file" })
 vim.keymap.set('n', '<leader>o', 'o<Esc>', { desc = "line below without insert mode" })
 vim.keymap.set('n', '<leader>O', 'O<Esc>', { desc = "line above without insert mode" })
-vim.keymap.set('n', '<leader>s', '<Cmd>%so<CR>', { desc = "sources the file" })
+vim.keymap.set('n', '<leader>s', ':%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>', { desc = "replaces (:%s) the word the cursor is over" })
 --
 
 -- Insert mode mappings

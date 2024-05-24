@@ -17,7 +17,6 @@ vim.opt.expandtab = true
 
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-vim.opt.signcolumn = "yes"
 vim.opt.scrolloff = 10
 
 -- Function to determine the current hour

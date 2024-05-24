@@ -90,6 +90,12 @@ return {
   {
     "rebelot/kanagawa.nvim",
     config = function()
+      require("kanagawa").setup({
+        background = {
+          dark = "dragon",
+          light = "wave",
+        },
+      })
       vim.cmd.colorscheme("kanagawa")
     end,
   },
