@@ -31,7 +31,7 @@ return {
 
       sidebar_filetypes = {
         ["neo-tree"] = { event = "BufWipeout", text = "neo-tree", align = "center" },
-        undotree = { event = "BufWipeout", text = "undotree", align = "center" }
+        undotree = { event = "BufWipeout", text = "undotree", align = "center" },
       },
     })
   end,
