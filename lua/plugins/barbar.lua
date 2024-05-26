@@ -11,7 +11,7 @@ return {
 
       vim.keymap.set("n", "<M-,>", "<Cmd>BufferPrevious<CR>", { desc = "󰌥 move to previous buffer" }),
       vim.keymap.set("n", "<M-.>", "<Cmd>BufferNext<CR>", { desc = "󰌒 move to next buffer" }),
-      vim.keymap.set("n", "<M-p>", "<Cmd>BufferPick<CR>", { desc = "󰾹 choose buffer by letter" }),
+      -- vim.keymap.set("n", "<M-p>", "<Cmd>BufferPick<CR>", { desc = "󰾹 choose buffer by letter" }),
 
       vim.keymap.set("n", "<M-1>", "<Cmd>BufferGoto 1<CR>", { desc = "󰌒 go to tab 1" }),
       vim.keymap.set("n", "<M-2>", "<Cmd>BufferGoto 2<CR>", { desc = "󰌒 go to tab 2" }),
