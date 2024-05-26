@@ -30,7 +30,7 @@ local function set_background()
   -- Set 'light' background for hours 8AM - 6PM (8 - 18)
   if hour >= 8 and hour < 18 then
     vim.o.background = 'light'
-  -- Set 'dark' background for hours 6PM - 8AM (18 - 8)
+    -- Set 'dark' background for hours 6PM - 8AM (18 - 8)
   else
     vim.o.background = 'dark'
   end
@@ -38,3 +38,11 @@ end
 
 -- Call the function to set the background
 set_background()
+
+vim.api.nvim_create_autocmd('TextYankPost', {
+  desc = 'Highlight when yanking (copying) text',
+  group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
+  callback = function()
+    vim.highlight.on_yank()
+  end,
+})
