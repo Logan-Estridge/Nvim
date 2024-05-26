@@ -7,6 +7,7 @@ return {
       auto_restore_enabled = false,
       auto_save_enabled = true,
       auto_session_use_git_branch = true,
+      bypass_session_save_file_types = { "neo-tree", "alpha", "undotree" },
     })
 
     vim.keymap.set("n", "<leader>ar", "<Cmd>SessionRestore<CR>", { desc = "󰁯 restore session for cwd" })
