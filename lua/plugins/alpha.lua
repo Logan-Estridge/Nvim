@@ -13,7 +13,6 @@ return {
     local version = " v" .. v.major .. "." .. v.minor .. "." .. v.patch
 
     dashboard.section.header.val = {
-      [[                                                                       ]],
       [[                                                                     ]],
       [[       ████ ██████           █████      ██                     ]],
       [[      ███████████             █████                             ]],
@@ -22,7 +21,6 @@ return {
       [[    █████████ ██████████ █████████ █████ █████ ████ █████   ]],
       [[  ███████████ ███    ███ █████████ █████ █████ ████ █████  ]],
       [[ ██████  █████████████████████ ████ █████ █████ ████ ██████ ]],
-      [[                                                                       ]],
     }
 
     -- Set menu
@@ -30,9 +28,11 @@ return {
       dashboard.button("e", "  > New File", "<cmd>ene<CR>"),
       dashboard.button("CTRL n", "󰐅  > Toggle File Explorer", "<cmd>Neotree<CR>"),
       dashboard.button("SPC ff", "󰱼  > Find File", "<cmd>Telescope find_files<CR>"),
-      dashboard.button("SPC fo", "󰤘  > Find Recent File", "<cmd>Telescope oldfiles<CR>"),
+      dashboard.button("SPC fo", "󱋡  > Find Recent File", "<cmd>Telescope oldfiles<CR>"),
       dashboard.button("SPC fg", "󰭎  > Live Grep", "<cmd>Telescope live_grep<CR>"),
       dashboard.button("SPC ar", "󰁯  > Restore Session for CWD", "<cmd>SessionRestore<CR>"),
+      dashboard.button("SPC lg", "  > Open Lazygit", "<cmd>LazyGit<CR>"),
+      dashboard.button("l", "󰒲  > Open Lazy NVIM Package Manager", "<cmd>Lazy<CR>"),
       dashboard.button("c", "  > CD to Configuration", ":cd ~/.config/nvim/<CR>"),
       dashboard.button("q", "  > Quit NVIM", "<cmd>qa<CR>"),
     }
