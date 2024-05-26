@@ -34,7 +34,7 @@ return {
       dashboard.button("SPC lg", "  > Open Lazygit", "<cmd>LazyGit<CR>"),
       dashboard.button("l", "󰒲  > Open Lazy NVIM Package Manager", "<cmd>Lazy<CR>"),
       dashboard.button("c", "  > CD to Configuration", ":cd ~/.config/nvim/<CR>"),
-      dashboard.button("q", "  > Quit NVIM", "<cmd>qa<CR>"),
+      dashboard.button("q", "󰩈  > Quit NVIM", "<cmd>qa<CR>"),
     }
 
     function centerText(text, width)
