@@ -9,7 +9,7 @@ return {
       auto_session_use_git_branch = true,
     })
 
-    vim.keymap.set("n", "<leader>ar", "<Cmd>SessionRestore<CR>", { desc = "restore session for cwd" })
-    vim.keymap.set("n", "<leader>as", "<Cmd>SessionSave<CR>", { desc = "save session" })
+    vim.keymap.set("n", "<leader>ar", "<Cmd>SessionRestore<CR>", { desc = "󰁯 restore session for cwd" })
+    vim.keymap.set("n", "<leader>as", "<Cmd>SessionSave<CR>", { desc = " save session" })
   end,
 }

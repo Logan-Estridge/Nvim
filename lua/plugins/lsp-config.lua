@@ -24,9 +24,9 @@ return {
 			lspconfig.lua_ls.setup({ capabilities = capabilities })
 			lspconfig.texlab.setup({ capabilities = capabilities })
 
-			vim.keymap.set("n", "K", vim.lsp.buf.hover, {}, { desc = "show lsp info" })
-			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {}, { desc = "go to definition" })
-			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {}, { desc = "code action" })
+			vim.keymap.set("n", "<leader>K", vim.lsp.buf.hover, { desc = " show lsp info" })
+			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, { desc = " go to definition" })
+			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, { desc = " code action" })
 		end,
 	},
 }

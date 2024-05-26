@@ -1,12 +1,12 @@
 -- Normal mode mappings
-vim.keymap.set('n', '<leader>h', '<Cmd>nohlsearch<CR>', { desc = "turns off search highlighting" })
-vim.keymap.set('n', '<leader>b', '<Cmd>buffers<CR>:b', { desc = "opens the buffers window" })
-vim.keymap.set('n', '<leader>w', '<Cmd>w<CR>', { desc = "writes the file" })
-vim.keymap.set('n', '<leader>q', '<Cmd>q<CR>', { desc = "quits the file" })
-vim.keymap.set('n', '<leader>z', '<Cmd>wq<CR>', { desc = "writes and quits the file" })
-vim.keymap.set('n', '<leader>o', 'o<Esc>', { desc = "line below without insert mode" })
-vim.keymap.set('n', '<leader>O', 'O<Esc>', { desc = "line above without insert mode" })
-vim.keymap.set('n', '<leader>s', ':%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>', { desc = "replaces (:%s) the word the cursor is over" })
+vim.keymap.set('n', '<leader>h', '<Cmd>nohlsearch<CR>', { desc = " 󰸱 turns off search highlighting" })
+vim.keymap.set('n', '<leader>b', '<Cmd>buffers<CR>:b', { desc = " opens the buffers window" })
+vim.keymap.set('n', '<leader>w', '<Cmd>w<CR>', { desc = " writes the file" })
+vim.keymap.set('n', '<leader>q', '<Cmd>q<CR>', { desc = "󰩈 quits the file" })
+vim.keymap.set('n', '<leader>z', '<Cmd>wq<CR>', { desc = " 󰩈 writes and quits the file" })
+vim.keymap.set('n', '<leader>o', 'o<Esc>', { desc = "󰁅 line below without insert mode" })
+vim.keymap.set('n', '<leader>O', 'O<Esc>', { desc = "󰁝 line above without insert mode" })
+vim.keymap.set('n', '<leader>s', ':%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>', { desc = "󰛔 replaces the word the cursor is over" })
 --
 
 -- Insert mode mappings
