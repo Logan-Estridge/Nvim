@@ -20,4 +20,5 @@ require("lazy").setup("plugins", {
 })
 
 require("keymaps")
+require("clipboard")
 -- require("luasnip-helper-funcs")
