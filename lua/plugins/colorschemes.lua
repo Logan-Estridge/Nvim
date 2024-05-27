@@ -17,7 +17,7 @@ return {
       vim.opt.showmode = false
       require("lualine").setup({
         options = {
-          theme = "kanagawa",
+          theme = "horizon",
         },
         -- sections = {
         --   lualine_c = { require("auto-session.lib").current_session_name },
