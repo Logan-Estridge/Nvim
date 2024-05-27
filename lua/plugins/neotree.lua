@@ -7,7 +7,7 @@ return {
 		"MunifTanjim/nui.nvim",
 		"3rd/image.nvim",
 	},
-	config = function()
-		vim.keymap.set("n", "<C-n>", "<Cmd>Neotree filesystem toggle<CR>", { desc = "toggle neo tree"})
-	end,
+	keys = {
+		{ "<C-n>", "<Cmd>Neotree filesystem toggle<CR>", desc = "toggle neo tree" },
+	},
 }

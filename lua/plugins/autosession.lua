@@ -1,5 +1,10 @@
 return {
   "rmagatti/auto-session",
+  event = "VeryLazy",
+  keys = {
+    { "<leader>as", "<Cmd>SessionSave<CR>", desc = " save session" },
+    { "<leader>ar", "<Cmd>SessionRestore<CR>", desc = "󰁯 restore session for cwd" },
+  },
   config = function()
     local auto_session = require("auto-session")
 
@@ -10,7 +15,5 @@ return {
       bypass_session_save_file_types = { "neo-tree", "alpha", "undotree" },
     })
 
-    vim.keymap.set("n", "<leader>ar", "<Cmd>SessionRestore<CR>", { desc = "󰁯 restore session for cwd" })
-    vim.keymap.set("n", "<leader>as", "<Cmd>SessionSave<CR>", { desc = " save session" })
   end,
 }

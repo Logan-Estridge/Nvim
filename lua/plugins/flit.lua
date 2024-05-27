@@ -1,5 +1,6 @@
 return {
   "ggandor/flit.nvim",
+  event = "VeryLazy",
   config = function()
     require('flit').setup {
       keys = { f = 'f', F = 'F', t = 't', T = 'T' },

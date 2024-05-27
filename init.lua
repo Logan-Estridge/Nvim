@@ -20,4 +20,4 @@ require("lazy").setup("plugins", {
 })
 
 require("keymaps")
-require("luasnip-helper-funcs")
+-- require("luasnip-helper-funcs")

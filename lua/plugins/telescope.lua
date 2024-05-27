@@ -1,6 +1,7 @@
 return {
   {
     "nvim-telescope/telescope.nvim",
+    event = "VeryLazy",
     branch = "0.1.x",
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
@@ -18,6 +19,7 @@ return {
   },
   {
     "nvim-telescope/telescope-ui-select.nvim",
+    event = "VeryLazy",
     config = function()
       -- This is your opts table
       require("telescope").setup({

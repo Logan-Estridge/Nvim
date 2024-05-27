@@ -1,9 +1,11 @@
 return {
-	{
-		"tpope/vim-fugitive",
-	},
+	-- {
+	-- 	"tpope/vim-fugitive",
+	--    event = "VeryLazy",
+	-- },
 	{
 		"lewis6991/gitsigns.nvim",
+    event = "InsertEnter",
 		config = function()
 			require("gitsigns").setup()
 
