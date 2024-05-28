@@ -1,15 +1,15 @@
 return {
-	"goolord/alpha-nvim",
-	event = "VimEnter",
-	dependencies = {
-		"nvim-tree/nvim-web-devicons",
-		"nvim-lua/plenary.nvim",
-		{
-			"rubiin/fortune.nvim",
-			config = function()
-				require("fortune").setup({
-					content_type = "quotes",
-					display_format = "short",
+  "goolord/alpha-nvim",
+  event = "VimEnter",
+  dependencies = {
+    "nvim-tree/nvim-web-devicons",
+    "nvim-lua/plenary.nvim",
+    {
+      "rubiin/fortune.nvim",
+      config = function()
+        require("fortune").setup({
+          content_type = "quotes",
+          display_format = "short",
           max_width = 60,
           custom_quotes = {
             short = {
@@ -35,6 +35,29 @@ return {
               { "There is no easy way from the earth to the stars.", "", "- Seneca" },
               { "The aim of art is to represent not the outward appearance of things, but their inward significance.", "", "- Aristotle" },
               { "In theory, theory and practice are the same. In practice, they're not.", "", "- Yoggi Berra" },
+              {
+                "A good programmer is someone who always looks both ways before crossing a one-way street.",
+                "",
+                "- Doug Linder",
+              },
+              {
+                "Any sufficiently advanced technology is indistinguishable from magic.",
+                "",
+                "- Arthur C. Clarke",
+              },
+              { "Nothing is more permanent than a temporary solution.", "", "- Fyodor Dostoevsky" },
+              { "If, at first, you do not succeed, call it version 1.0.", "", "- Khayri R.R. Woulfe" },
+              { "Experience is the name everyone gives to their mistakes.", "", "- Oscar Wilde" },
+              {
+                "I would rather die of passion than of boredom.",
+                "",
+                "- Vincent Van Gogh",
+              },
+              { "The happiness of your life depends upon the quality of your thoughts.", "", "- Marcus Aurelius" },
+              { "No man ever steps in the same river twice, for it's not the same river and he's not the same man.", "", "- Heraclitus" },
+              { "Success tends to create pride and blindness in the hearts of men, while suffering teaches them to be patient and strong.", "", "- Xenophon" },
+              { "It's not what happens to you, but how you react to it that matters.", "", "- Epictetus" },
+              { "We are what we repeatedly do. Excellence then is not an act, but a habit.", "", "- Aristotle" },
             },
             long = {
             },
