@@ -25,6 +25,9 @@ return {
           l = {
             name = " lazygit ...", -- Group name
           },
+          H = {
+            name = "󰚌 Hardtime ...", -- Group name
+          },
         },
       })
     end,
