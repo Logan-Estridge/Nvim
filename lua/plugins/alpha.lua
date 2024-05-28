@@ -136,10 +136,10 @@ return {
 
 		-- Set menu
 		dashboard.section.buttons.val = {
+      dashboard.button("SCP", "  > Activate Which-Key to See Keymappings", "<Space>"),
 			dashboard.button("CTRL n", "󰐅  > Toggle File Explorer", "<cmd>Neotree<CR>"),
-			dashboard.button("SPC ff", "󰱼  > Find File", "<cmd>Telescope find_files<CR>"),
+			dashboard.button("SPC ff", "󰭎  > Find File", "<cmd>Telescope find_files<CR>"),
 			dashboard.button("SPC fo", "󱋡  > Find Recent File", "<cmd>Telescope oldfiles<CR>"),
-			dashboard.button("SPC fg", "󰭎  > Live Grep", "<cmd>Telescope live_grep<CR>"),
 			dashboard.button("SPC ar", "󰁯  > Restore Session for CWD", "<cmd>SessionRestore<CR>"),
 			dashboard.button("SPC lg", "  > Open Lazygit", "<cmd>LazyGit<CR>"),
 			dashboard.button("l", "󰒲  > Open Lazy NVIM Package Manager", "<cmd>Lazy<CR>"),
