@@ -13,7 +13,6 @@ return {
           max_width = 60,
           custom_quotes = {
             short = {
-              { "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.", "", "- Albert Einstein" },
               { "Be yourself; everyone else is already taken.", "", "- Oscar Wilde" },
               { "Be the change that you wish to see in the world.", "", "- Mahatma Gandhi" },
               { "I have not failed. I've just found 10,000 ways that won't work.", "", "- Thomas A. Edison" },
@@ -58,6 +57,38 @@ return {
               { "Success tends to create pride and blindness in the hearts of men, while suffering teaches them to be patient and strong.", "", "- Xenophon" },
               { "It's not what happens to you, but how you react to it that matters.", "", "- Epictetus" },
               { "We are what we repeatedly do. Excellence then is not an act, but a habit.", "", "- Aristotle" },
+              { "All human wisdom is summed up in two words: wait and hope.", "", "- Alexandre Dumas, The Count of Monte Cristo" },
+              { "In all chaos there is a cosmos, in all disorder a secret order.", "", "- Carl Gustav Jung" },
+              { "Intelligence is what you use when you don't know what to do.", "", "- Jean Piaget" },
+              { "This above all: to thine own self be true.", "", "- William Shakespeare, Hamlet" },
+              {
+                "Our doubts are traitors,",
+                "And make us lose the good we oft might win,",
+                "By fearing to attempt.",
+                "",
+                "- William Shakespeare, Measure for Measure"
+              },
+              {
+                "Is all that we see or seem,",
+                "But a dream within a dream?",
+                "",
+                "- Edgar Allan Poe, A Dream Within a Dream"
+              },
+              {
+                "The woods are lovely, dark and deep,",
+                "But I have promises to keep,",
+                "And miles to go before I sleep,",
+                "And miles to go before I sleep,",
+                "",
+                "- Robert Frost, Stopping by Woods on a Snowy Evening"
+              },
+              {
+                "The snow of yesterday",
+                "That fell like cherry blossoms",
+                "Is water once again",
+                "",
+                "- Gozan"
+              },
             },
             long = {
             },
