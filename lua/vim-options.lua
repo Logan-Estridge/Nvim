@@ -3,21 +3,24 @@ vim.g.maplocalleader = ' '
 
 vim.wo.number = true
 vim.wo.relativenumber = true
-vim.opt.backspace = '2'
-vim.opt.showcmd = true
-vim.opt.laststatus = 2
-vim.opt.autowrite = true
-vim.opt.cursorline = true
-vim.opt.autoread = true
 
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.shiftround = true
-vim.opt.expandtab = true
+local opt = vim.opt
 
-vim.opt.ignorecase = true
-vim.opt.smartcase = true
-vim.opt.scrolloff = 10
+opt.backspace = '2'
+opt.showcmd = true
+opt.laststatus = 2
+opt.autowrite = true
+opt.cursorline = true
+opt.autoread = true
+
+opt.tabstop = 2
+opt.shiftwidth = 2
+opt.shiftround = true
+opt.expandtab = true
+
+opt.ignorecase = true
+opt.smartcase = true
+opt.scrolloff = 10
 
 -- Function to determine the current hour
 local function get_hour()
