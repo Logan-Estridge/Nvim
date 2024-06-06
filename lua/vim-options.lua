@@ -24,6 +24,8 @@ opt.scrolloff = 10
 
 vim.o.background = 'dark'
 
+vim.cmd("set clipboard=unnamedplus")
+
 -- -- Function to determine the current hour
 -- local function get_hour()
 --   return tonumber(os.date("%H"))
